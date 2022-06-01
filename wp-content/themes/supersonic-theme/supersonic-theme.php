@@ -11,6 +11,10 @@ get_header();
     <title>Document</title>
 </head>
 <body>
+<h1><?php echo get_the_title() ?></h1>
+
+<?php echo get_the_content() ?>
+
 
 </body>
 </html>
